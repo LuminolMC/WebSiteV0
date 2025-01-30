@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    margin-bottom: -3.75rem;
+    height: 3rem;
+    background: url("../image/pattern.png");
+    border-bottom: 0.25rem solid plum;
+    z-index: 2;
+}
+
+.header-title {
+    color: plum;
+    text-align: center;
+    margin-left: 1rem;
+    height: inherit;
+    font-family: "Novecento Wide";
+    font-size: 30px;
+    padding: 4px 0;
+}
+
+.menu-container {
+    float: right;
+    position: absolute;
+    top: 0rem;
+    right: 1rem;
+    height: inherit;
+    display: flex
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+ 
+li {
+    float: left;
+    height: inherit;
+}
+ 
+li a {
+    height: inherit;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+    font-family: "MiSans";
+    /* padding: 100% 1rem; */
+    text-decoration: none;
+}
+ 
+/*鼠标移动到选项上修改背景颜色 */
+li a:hover {
+    background-color: #b6ade6;
+}

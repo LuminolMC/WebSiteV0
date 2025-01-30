@@ -1,0 +1,39 @@
+.banner-container {
+    width: 300px;
+    height: 168px;
+    overflow: hidden;
+}
+
+#banner {
+    width: 1200px;
+    animation: banner 6s linear;
+    /*lunbotu为动画名称，此动画持续6s，速度相同*/
+}
+
+#banner>img {
+    float: left;
+    width: 10vw;
+}
+
+@keyframes banner {
+
+    0%,
+    20% {
+        margin-left: 0;
+    }
+
+    25%,
+    45% {
+        margin-left: -1600px;
+    }
+
+    50%,
+    70% {
+        margin-left: -3200px;
+    }
+
+    75%,
+    100% {
+        margin-left: -1600px;
+    }
+}

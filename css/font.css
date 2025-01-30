@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Novecento Wide";
+    src: url("../font/Novecento-Wide-Bold-2.woff2") format("woff")
+}
+
+@font-face {
+    font-family: "MiSans";
+    src: url("../font/MiSans-Normal.woff2")
+}
+
+.icon-font {
+    position: relative;
+    display: inline-block;
+    top: 0.4rem;
+}
