@@ -14,12 +14,12 @@ body {
 }
 
 .main {
-    padding-top: 60px;
-    padding-bottom: 50px;
 }
 
 body {
     background-color: #f9f9f9;
+
+    margin:0;
 }
 
 .bg-colored-title {
